@@ -11,12 +11,12 @@ int main()
     int arr[SIZE];
     printf("Enter 25 elements:");
     scanf("%d", &arr);
-    FindEle(arr); 'Function call for FindEle'
-    count(); 'Function call for count'
+    FindEle(arr); /*Function call for FindEle*/
+    count(); /*Function call for count*/
 };
-int FindEle(int) 'Function definition for FindEle'
+int FindEle(int) /*Function definition for FindEle*/
 {
-    int k;'Number taken for finding in array'
+    int k;/*Number taken for finding in array*/
     printf("Enter the number to find:");
     scanf("%d", &k);
     if(k==arr){
