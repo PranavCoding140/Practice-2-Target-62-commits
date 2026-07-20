@@ -6,15 +6,15 @@ int arr2[SIZE];
 int arr1[SIZE];
 int main(){
     printf("Add elements to array:");
-    scanf("%d", arr1[SIZE]);
-    int arrev(int arr1[SIZE]);/*WARNING:- Old style definition*/
+    scanf("%d", &arr1[SIZE]);
+    int arrev(int arr1[SIZE]);
 }
-int arrev(int arr1[]){
+int* arrev(int arr1[]){
     int temp, i, j;
     for(i=0;i<=SIZE;i++){
         for(j=SIZE;j>=0;j--){
-            arr1[i]=temp;/*ERROR:- Subscripted-[] value is neither array nor pointer*/
-            temp=arr2[j];
+            temp=arr2[j];/*ERROR:- Subscripted-[] value is neither array nor pointer*/
+            arr1[i]=temp;
         }
     }
    printf("Reversed array:", arr2); 
