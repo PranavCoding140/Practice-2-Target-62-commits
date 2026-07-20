@@ -13,7 +13,7 @@ int* arrev(int arr1[]){
     int temp, i, j;
     for(i=0;i<=SIZE;i++){
         for(j=SIZE;j>=0;j--){
-            temp=arr2[j];/*ERROR:- Subscripted-[] value is neither array nor pointer*/
+            temp=arr2[j];/*ERROR:- Subscripted-[] value is neither array nor pointer:-PATCHED*/
             arr1[i]=temp;
         }
     }
