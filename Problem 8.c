@@ -21,7 +21,8 @@ struct node inputll(struct node *next){/*ERROR:- expected identifier, Same mista
 struct node altll(struct node *ptr, struct node *preptr){
     struct node *ll2, *ll1, *i;
     ptr=0, preptr=ptr-1;
-    for(i=ptr;i->next!=NULL;i->next=ptr->next){/*ERROR:- invalid argument ->*/
+    for(i=ptr;i->next!=NULL;i->next=ptr->next){/*ERROR:- invalid argument ->
+PATCH:- HAVE TO WRITE "next" for both i and ptr*/
         preptr=ptr;
         ptr=ptr->next;
         preptr->next=ptr->next;
