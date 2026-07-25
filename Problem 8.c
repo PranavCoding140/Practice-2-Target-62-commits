@@ -4,6 +4,7 @@ Assume that k is always less than or equal to the length of the Linked List.
 Eg:- Input: LinkedList: 1 -> 2 -> 3 -> 4 -> 5 -> 6, k = 2
 Output: 1 -> 3 -> 5 
 Explanation: After removing every 2nd node of the linked list, the resultant linked list will be: 1 -> 3 -> 5 .*/
+/*DEBUGGED BY MYSELF WITHOUT USING CLAUDE AI*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<malloc.h>
