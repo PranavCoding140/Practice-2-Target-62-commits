@@ -16,7 +16,7 @@ struct node InterLeaf(struct node* left, struct node* right){
     else{
         struct node *ptr;
         int temp;
-        void swap(int *left, int *right){/*ERROR:- expected a ;*/
+        void swap(int *left, int *right){/*ERROR:- expected a ; PATHCED*/
         int temp=*left;
         *left=*right;
         *right=temp;
