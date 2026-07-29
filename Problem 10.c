@@ -26,6 +26,6 @@ int main(){
     int top;
     char data;
     void push(char data);
-    char result(int top);/*ERROR*/
+    char result(int top);/*ERROR:- PATCHED*/
     return 0;
 }
