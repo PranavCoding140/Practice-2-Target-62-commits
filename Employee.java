@@ -18,7 +18,7 @@ id=i;
 salary=s;
 }
 void display(){
-System.out.println("Employee Name:"+name,"ID:"+id,"Salary"+salary);
+System.out.println("Employee Name:"+name+",ID:"+id+",Salary"+salary);
 }
 public static void main(String[] args){
 Employee e1=new Employee();
