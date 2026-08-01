@@ -18,7 +18,7 @@ void push(char data){
 char result(int top){
     int i; char data;
     for(i=top;i>=-1;i--){
-        printf("%d\n", stack[i]);/*ERROR:- how to write the printf statement?, PATCHED*/
+        printf("%s\n", stack[i]);/*ERROR:- how to write the printf statement?, PATCHED*/
     }
     return data; 
 }
