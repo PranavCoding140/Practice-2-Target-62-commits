@@ -21,7 +21,7 @@ struct node *findkth(struct node *tree, int k){/*which traversal technique to be
     scanf("%d", k);
     void inorder(struct node *tree, int k){
     if(tree!=NULL){
-        while(tree->left!=NULL||tree->right!=NULL){/*WARNING:- COMPARISON BETWEEN POINTER AND INTEGER*/
+        while(tree->left!=NULL||tree->right!=NULL){/*WARNING:- COMPARISON BETWEEN POINTER AND INTEGER, PATCHED*/
         inorder(tree->left);
         printf("%d", tree->data);
         inorder(tree->right);
