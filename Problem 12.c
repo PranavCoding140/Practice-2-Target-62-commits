@@ -23,10 +23,10 @@ struct node *remnth(struct node *ptr, struct node *next, struct node *prev){
     int *p=(int*)n;
     while(ptr->prev!=n){
         
-        ptr=ptr->prev;
+        ptr=ptr->prev;}
         free(ptr);
         printf("Required node deleted");
-    }
+   
 }
 int main(){
     struct node *createll(struct node *next, struct node *prev);
