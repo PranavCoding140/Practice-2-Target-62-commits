@@ -17,9 +17,9 @@ struct node *remnth(struct node *ptr, struct node *next, struct node *prev){
     scanf("%d", n);
     ptr=0;
     while(ptr->next!=NULL){
-        ptr=ptr->next;
-        printf("Last node reached");
+        ptr=ptr->next;
     }
+    printf("Last node reached");
     int *p=(int*)n;
     while(ptr->prev!=n){
         
