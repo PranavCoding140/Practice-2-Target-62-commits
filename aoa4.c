@@ -2,7 +2,7 @@
 #include<stdio.h>
 #define SIZE 10 
 int arr[SIZE];
-int binsearch(int arr[SIZE], int mid, int low, int high){
+int binsearch(int arr[SIZE], int mid, int low, int high){//Parameters cannot be initialized while passing
     int x;
 mid=(low+high)/2;
 if(x==arr[mid]){
@@ -20,7 +20,7 @@ int binsearch(int arr[SIZE], int mid, int low, int high);
 }
 }
 int main(){
-int x,low=0,high=SIZE;
+int x,low=0,high=SIZE;//low and high variables to be initialized in main
 printf("Enter the elements of array in ascending order:");
 scanf("%d", arr[SIZE]);
 int binsearch(int arr[SIZE],int mid,int low,int high);//expected declaration specifiers before arr, PATCHED
