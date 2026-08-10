@@ -1,4 +1,5 @@
 /*Problem 15 Given 2 sorted linked lists of different sizes, we need to merge them into a single list while maintaining their sorted order.*/
+/*SEEN AND SOLVED, SOLUTION GIVEN BY APNA COLLEGE, SHRADHA KHAPRA*/
 #include<stdio.h>
 #include<stdlib.h>
 struct node{
