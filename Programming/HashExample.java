@@ -3,7 +3,7 @@ import java.util.*;
 public class HashExample{
     public static void main(String[] args){
         //country(key), population(value)
-        HashMap<String, Integer> map = new HashMap<>();// creation of hashmap error
+        HashMap<String, Integer> map = new HashMap<>();
         map.put("India", 120);//insertion in map
         map.put("USA", 150);
         map.put("China",200);
