@@ -1,3 +1,4 @@
+//sample seen program to learn stack implementation in java.
 import java.util.Stack;
 public class myStackTest{
     public static void main(String[] args){
