@@ -34,4 +34,3 @@ int main(){
     place(0);
     return 0;
 }
-//solution not getting printed for 4 queens
