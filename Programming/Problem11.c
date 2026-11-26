@@ -8,7 +8,7 @@ eg:- 153=(1^3)+(5^3)+(3^3)*/
 #include<math.h>
 
 int arm(int a,int n){
-    int org,rem,sum;
+    int org,rem,sum=0;
     org=a;
     while(org!=0){
         rem=org%10;
@@ -21,13 +21,14 @@ int arm(int a,int n){
     else{
         printf("Number is not Armstrong number.");
     }
+    return rem;
 }
 int main(){
     int a,n;
     printf("Enter number of digits:");
     scanf("%d", &n);
-    printf("Enter a %d digit number:");
-    scanf("%d", a);
+    printf("Enter a %d digit number:", n);
+    scanf("%d", &a);
     arm(a,n);
     return 0;
 }/*SEEN AND SOLVED. NEXT LEVEL LOGIC.*/
